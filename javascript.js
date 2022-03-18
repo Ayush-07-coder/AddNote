@@ -31,8 +31,7 @@ let delet = document.createElement('button');
 header.appendChild(delet);
 delet.innerHTML = "X";
 delet.classList.add("delete");
-
-document.querySelector('.delete').addEventListener('click', function(){
-outer.remove();	
+sub_container.addEventListener('dblclick', function(){
+container.removeChild(outer);
 });
 });
